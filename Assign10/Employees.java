@@ -1,4 +1,4 @@
-// Understanding of Memory Location. // Heap and Stack Memory //How to all static and non-static methods
+// Understanding of Memory ALocation. // Heap and Stack Memory //How to all static and non-static methods
 class Employees {
     static String cname = "Qspider"; //can assign vlaue in static members either here or during object creation or static members call with every non-static object in heap area. also static members call at class reference if it is call in other class else call it directly.
            String ename;
