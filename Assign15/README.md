@@ -15,11 +15,10 @@
    } 
    } 
 ```
-a) 10 
-b) 5 
-c) 15 
-d) None 
-
+- a) 10 ✓✓✓
+- b) 5 
+- c) 15 
+- d) None 
 
 
 
@@ -36,10 +35,10 @@ d) None
    } 
    } 
 ```
-a) A
-b) B 
-c) C 
-d) Compilation Error
+- a) A
+- b) B 
+- c) C ✓✓✓
+- d) Compilation Error
 
 
 3. What is output of the code snippet: 
@@ -52,10 +51,10 @@ int z = 7;
 int result = (x < y) ? (y < z) ? z : y : x; 
 System.out.println(result); 
    ```
-a) 10 
-b)  5 
-c) 7 
-d) Compilation error 
+- a) 10 ✓✓✓
+- b) 5 
+- c) 7 
+- d) Compilation error 
 
 
 
@@ -70,10 +69,10 @@ d) Compilation error
   System.out.println(c);   
 
    ```
-a) 5
-b) 6
-c) 10
-d) 9
+- a) 5
+- b) 6
+- c) 10
+- d) 9 ✓✓✓
 
 
 
@@ -89,7 +88,7 @@ int result = (value > 5) ? value < B ? 1 : 2 : 3;
 a) 1
 b) 2
 c) 3
-d) Compilation error
+d) Compilation error  ✓✓✓
 
 
 
@@ -102,7 +101,7 @@ int y = 7;
 int z = 3;
 int result = (x > y) ? (y > Z) ? x : y : (x > z) ? x : z;
    ```
-a) 5
+a) 5  ✓✓✓
 b) 7
 c) 3
 d) Compilation error
