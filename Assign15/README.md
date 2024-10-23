@@ -85,10 +85,10 @@ int result = (value > 5) ? value < B ? 1 : 2 : 3;
 
    ```
 *** What will be the output of result? ***   
-a) 1
-b) 2
-c) 3
-d) Compilation error  ✓✓✓
+- a) 1
+- b) 2
+- c) 3
+- d) Compilation error  ✓✓✓
 
 
 
@@ -101,10 +101,10 @@ int y = 7;
 int z = 3;
 int result = (x > y) ? (y > Z) ? x : y : (x > z) ? x : z;
    ```
-a) 5  ✓✓✓
-b) 7
-c) 3
-d) Compilation error
+- a) 5  ✓✓✓
+- b) 7
+- c) 3
+- d) Compilation error
 
 
 

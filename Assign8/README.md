@@ -1,7 +1,7 @@
-DESIGN BluePrint or Class for 
-(i)     Laptop
-(ii)    Fruit
-(iii)   Veichle
+ # DESIGN BluePrint or Class for 
+- (i)     Laptop
+- (ii)    Fruit
+- (iii)   Veichle
 
 
 

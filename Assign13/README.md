@@ -2,10 +2,10 @@
 
 *** Design setValue and getDetails method for ***
 
-(i)    School
-(ii)   Weapon
-(iii)  Rectangle(Also getArea and getperimeter)
-(iv)   Circle(Also getArea and getCircumference)
+- (i)    School
+- (ii)   Weapon
+- (iii)  Rectangle(Also getArea and getperimeter)
+- (iv)   Circle(Also getArea and getCircumference)
 
 
 

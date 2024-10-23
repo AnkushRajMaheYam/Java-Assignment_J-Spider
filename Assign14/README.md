@@ -9,10 +9,10 @@
 	boolean c = true;
 	boolean result = (a && b) || (a && c);
    ```
-a) true   ✓✓✓
-b) false      
-c) Compilation error
-d) Depends on the values of 'a', 'b', and 'c'
+- a) true   ✓✓✓
+- b) false      
+- c) Compilation error
+- d) Depends on the values of 'a', 'b', and 'c'
 
 
 
@@ -25,10 +25,10 @@ d) Depends on the values of 'a', 'b', and 'c'
 	boolean result =  (++x > 5) && (--y <10);
 	System.out.println(result);
    ```
-a) true   ✓✓✓
-b) false    
-c) Compilation error
-d) Depends on the values of 'x' and 'y'
+- a) true   ✓✓✓
+- b) false    
+- c) Compilation error
+- d) Depends on the values of 'x' and 'y'
 
 
 3. What is the output of the program? 
@@ -40,10 +40,10 @@ d) Depends on the values of 'x' and 'y'
 	boolean r = true;
 	boolean result = (p || q) && (q || r);
    ```
-a) true   ✓✓✓
-b) false 
-c) Compilation error
-d) Depends on the values of 'p', 'q', and 'r'
+- a) true   ✓✓✓
+- b) false 
+- c) Compilation error
+- d) Depends on the values of 'p', 'q', and 'r'
 
 
 4. What is the output of the program:
@@ -62,10 +62,10 @@ class Program1
  }  
 }
    ```
-a) true, 20, 30 
-b) false, 21, 30 
-c) true, 21, 31   ✓✓✓
-d) false, 21, 31 
+- a) true, 20, 30 
+- b) false, 21, 30 
+- c) true, 21, 31   ✓✓✓
+- d) false, 21, 31 
 
 
 
@@ -85,10 +85,10 @@ System.out.println(b);
 }
 }
    ```
-a) true, 20, 30 
-b) false, 21, 30  ✓✓✓
-c) true, 21, 31 
-d) false, 21, 31
+- a) true, 20, 30 
+- b) false, 21, 30  ✓✓✓
+- c) true, 21, 31 
+- d) false, 21, 31
 
 
 
@@ -109,10 +109,10 @@ System.out.println(b);
 }
 }
    ```
-a) true, 20, 30 
-b) false, 21, 30 
-c) true, 21, 31  ✓✓✓
-d) false, 21, 31
+- a) true, 20, 30 
+- b) false, 21, 30 
+- c) true, 21, 31  ✓✓✓
+- d) false, 21, 31
 
 
 
@@ -133,10 +133,10 @@ System.out.println(b);
 }
 }
    ```
-a) true, 21, 30 
-b) false, 21, 30 
-c) true, 21, 31 
-d) false, 21, 31
+- a) true, 21, 30 
+- b) false, 21, 30 
+- c) true, 21, 31 
+- d) false, 21, 31
 
 
 

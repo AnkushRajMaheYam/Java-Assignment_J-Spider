@@ -15,10 +15,10 @@
  } 
 } 
    ```
-a) 8 
-b) 5 
-c) 7 
-d) 6
+- a) 8 
+- b) 5 
+- c) 7 
+- d) 6
 
 
 2. What is the output of the program:
@@ -36,10 +36,10 @@ System.out.println(z);
 } 
 } 
    ```
-a) 20 
-b) 21 
-c) 22 
-d) 19
+- a) 20 
+- b) 21 
+- c) 22 
+- d) 19
 
 3. What will be the output? 
 
@@ -55,10 +55,10 @@ System.out.println(result);
 } 
 }
    ```
-a) 4 
-b) 3 
-c) 2 
-d) None 
+- a) 4 
+- b) 3 
+- c) 2 
+- d) None 
 
 
 4. What will be the Output? 
@@ -76,12 +76,12 @@ d) None
  } 
 } 
    ```
-a) 21
-b) 22 
-c) 23 
-d) 20
-e) None
-f) 10
+- a) 21
+- b) 22 
+- c) 23 
+- d) 20
+- e) None
+- f) 10
 
 5. What is the output of the program
 
@@ -101,10 +101,10 @@ f) 10
  } 
 } 
    ```
-a) 13
-b) 14
-c) 15
-d) 16
+- a) 13
+- b) 14
+- c) 15
+- d) 16
 
 6. Use the following declaration and initialization to 
 evaluate the Java expressions
@@ -125,11 +125,11 @@ System.out.println (++e);
  } 
 } 
    ```
-a) 50
-b) 86
-c) 88
-d) 87
-e) none
+- a) 50
+- b) 86
+- c) 88
+- d) 87
+- e) none
 
 
 
