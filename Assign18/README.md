@@ -1,8 +1,8 @@
 # Digit Based Problem
-
+### n = 5678032;
 ## Questions
 
-1.  Print all digit one by one
+1. Print all digit one by one
 
 2. Print all even digits
 
