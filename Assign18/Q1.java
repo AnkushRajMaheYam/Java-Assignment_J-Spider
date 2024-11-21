@@ -5,9 +5,9 @@ public class Q1 {
     public static void main(String[] args) {
         int n = 5678032;
         while(n>0){
-            int digit = n%10;
+            int digit = n%10; //extract the last digit from number(n) without changing its(n) value
             System.out.println(digit);
-            n=n/10;
+            n=n/10; //remove the last digit from number(n) with changing its(n) value
         }
     }
 }
