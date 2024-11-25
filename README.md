@@ -132,6 +132,15 @@ Connect with me on:
 - **Facebook:** [Ankush Raj Mahe Yam](https://facebook.com/AnkushRajMaheYam)
 
 ---
+## **Acknowledgements**
+Special thanks to the mentor( [Shambhu Sir](https://www.instagram.com/kumarsam07) ) and faculty at **J-Spider Software Training Institute (Noida Branch)** for providing excellent guidance and support throughout the course.
+
+---
+
 
 **License:**  
 This repository is licensed under the MIT License.
+
+---
+
+Feel free to explore the projects, and happy coding! 😊
