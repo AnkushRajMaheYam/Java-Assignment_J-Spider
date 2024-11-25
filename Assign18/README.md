@@ -12,7 +12,7 @@
 
 5. Print the diff. of biggest and smallest digit
 
-6. Count 
+6. Count total no of digits
 
 7. Count all Even digits 
 
@@ -30,14 +30,56 @@
 
 14. Print the factorial of each digits of the number
 
-15. Print the sum of factorials of all digits of number.
+15. Print factorial of all even digits of number.
 
 16. print the sum of factorials of all digits of number.
 
 17. Print whether the no. is a Strong number or not Strong no 
 
-### Strong Number :- If the Sum of factorials of each digits of a number is equals to number itself then it is called Strong Number.
+A **Strong Number** is a special number where the sum of the factorials of its digits is equal to the original number. 
+
+---
+
+### **Example**:
+- Consider \( 145 \):
+  - \( 1! + 4! + 5! = 1 + 24 + 120 = 145 \)
+  - Since the sum of the factorials of its digits equals the original number, \( 145 \) is a **Strong Number**.
+
+---
+
+### **Steps to Check if a Number is a Strong Number**:
+1. Extract each digit of the number.
+2. Compute the factorial of each digit.
+3. Add the factorials.
+4. Compare the sum with the original number.
+
+---
 
 18. WAJP to reverse and print the value
 
 19. WAJP to check whether the no. is palindrome number or not.
+
+A **palindrome number** is a number that reads the same backward as forward. In other words, if you reverse the digits of the number, it remains unchanged.
+
+---
+
+### **Examples**:
+1. \( 121 \): Reversed, it is still \( 121 \).
+2. \( 12321 \): Reversed, it is \( 12321 \).
+3. \( 3443 \): Reversed, it is \( 3443 \).
+
+### **Non-Palindrome Examples**:
+1. \( 123 \): Reversed, it becomes \( 321 \).
+2. \( 4567 \): Reversed, it becomes \( 7654 \).
+
+---
+
+### **Steps to Check if a Number is a Palindrome**:
+1. Extract the digits of the number.
+2. Reverse the digits.
+3. Compare the reversed number with the original number:
+   - If they are the same, the number is a **palindrome**.
+   - Otherwise, it is not.
+
+---
+
