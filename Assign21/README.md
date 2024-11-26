@@ -16,30 +16,64 @@ Each problem is assigned a unique question number (e.g., `Q1`, `Q2`, etc.). Thes
    WAJP to take user input and print whether the number is an Armstrong number or not.  
    **Q1**
 
+An **Armstrong number** (also known as a **narcissistic number**, **pluperfect digital invariant (PPDI)**) is a number that is equal to the sum of its digits each raised to the power of the number of digits.
+
+### **Examples of Armstrong Numbers**
+# The first few are given by 1, 2, 3, 4, 5, 6, 7, 8, 9, 153, 370, 371, 407, 1634, 8208, 9474, 54748, ... 
+- 153: 
+   - It has 3 digits.
+   - 1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153.
+   - Hence, 153 is an Armstrong number.
+
+- 9474:
+   - It has 4 digits.
+   - 9^4 + 4^4 + 7^4 + 4^4 = 6561 + 256 + 2401 + 256 = 9474.
+   - Hence, 9474 is an Armstrong number.
+
+---
+
 2. **All Armstrong Numbers Up to 100**  
    WAJP to print and count all the Armstrong numbers up to 100.  
    **Q2**
 
+---
+
 3. **Prime Number Check**  
    WAJP to take user input and print whether the number is Prime or not.  
    **Q3**
+   ### **Definition of a Prime Number**
+
+A **prime number** is a natural number greater than 1 that has no divisors other than 1 and itself. In other words, a prime number is only divisible by 1 and itself.
+
+### **Key Points**
+1. A prime number must be **greater than 1**.
+2. It has **exactly two positive divisors**: 1 and the number itself.
+
+### **Examples of Prime Numbers**
+- 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, etc.
+
+
+### **Special Cases**
+- 2: The smallest and the only **even prime number**.
+- 1 : Not a prime number as it does not have two distinct positive divisors.
+---
 
 4. **All Prime Numbers in a Range**  
    WAJP to print and count all the Prime numbers up to a given range.  
    **Q4**
-
+---
 5. **Alternate Prime Numbers**  
    WAJP to print all the alternate Prime numbers up to a given range.  
    - Example Outputs:  
      - 2, 5, 11, 17...  
      - 3, 7, 13, 19  
    **Q5**
-
+---
 6. **Prime Numbers With Prime Sum Digits**  
    WAJP to print and count all prime numbers in a range where the sum of digits is also prime.  
    **[TCS NQT 2024]**  
    **Q6**
-
+---
 7. **Palindrome Number Check**  
    WAJP to take user input and check whether the number is a palindrome or not.  
    **Q7**
