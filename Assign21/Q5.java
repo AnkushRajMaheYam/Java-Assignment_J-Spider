@@ -1,4 +1,7 @@
-// WAJP to print all the alternate Prime numbers up to a given range.
+// WAJP to print all the alternate Prime numbers up to a given range.  
+// - Example Outputs:  
+//   - 2, 5, 11, 17...  
+//   - 3, 7, 13, 19  
 
 import java.util.Scanner;
 

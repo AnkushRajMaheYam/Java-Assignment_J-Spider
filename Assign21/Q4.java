@@ -1,4 +1,4 @@
-
+// AJP to print and count all the Prime numbers up to a given range.
 import java.util.Scanner;
 
 

@@ -78,6 +78,42 @@ A **prime number** is a natural number greater than 1 that has no divisors other
    WAJP to take user input and check whether the number is a palindrome or not.  
    **Q7**
 
+
+   ### **Palindrome Number**
+
+A **palindrome number** is a number that remains the same when its digits are reversed.
+
+#### **Key Characteristics**:
+- A palindrome number reads the same forwards and backwards.
+- Examples of palindrome numbers are `121`, `454`, `12321`, `999`, etc.
+
+---
+
+### **How to Check if a Number is Palindrome**
+
+To determine if a number is a palindrome:
+1. Reverse the digits of the number.
+2. Compare the reversed number to the original number.
+3. If they are the same, the number is a palindrome.
+
+---
+
+### **Example**
+
+#### **Palindrome**:
+- **Input**: `121`
+  - Reverse: `121`
+  - Since `121 == 121`, it is a palindrome.
+
+#### **Not a Palindrome**:
+- **Input**: `123`
+  - Reverse: `321`
+  - Since `123 != 321`, it is not a palindrome.
+
+---
+
+
+
 8. **Palindrome Numbers in a Range**  
    WAJP to print and count all the palindrome numbers in a given range.  
    **Q8**
@@ -85,6 +121,36 @@ A **prime number** is a natural number greater than 1 that has no divisors other
 9. **LeetCode Palindrome Problem**  
    [Link](https://leetcode.com/problems/palindrome-number/description/)  
    **Q9**
+
+- **Leetcode Answer Link:** [Palindrome Solutions](https://leetcode.com/submissions/detail/1471843450/)
+
+Given an integer x, return true if x is a 
+palindrome, and false otherwise.
+
+ 
+
+Example 1:
+
+Input: x = 121
+Output: true
+Explanation: 121 reads as 121 from left to right and from right to left.
+Example 2:
+
+Input: x = -121
+Output: false
+Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+Example 3:
+
+Input: x = 10
+Output: false
+Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
+ 
+
+Constraints:
+
+-231 <= x <= 231 - 1
+
+---
 
 10. **Prime Palindrome Numbers**  
     WAJP to print all palindrome numbers in a range that are also prime numbers.  
@@ -122,6 +188,8 @@ A **prime number** is a natural number greater than 1 that has no divisors other
     WAJP to print and count all the Happy numbers up to 100.  
     **Q18**
 
+    n=86 -> sum of sq = 64+36=100 -> sum of sq = 1+0+0 =1 (check one digit number(if it is equal to 1 and 7 ))
+
 19. **Automorphic Number Check**  
     WAJP to take user input and print whether the number is Automorphic or not.  
     **Q19**
@@ -138,6 +206,8 @@ A **prime number** is a natural number greater than 1 that has no divisors other
     WAJP to print and count all the Fascinating numbers up to 10000.  
     **Q22**
 
+    n=192 
+    string = n + "" + n*2 + "" + n*3; = "192384576"
 23. **Strong Number Check**  
     WAJP to take user input and print whether the number is Strong or not.  
     **Q23**
@@ -361,10 +431,11 @@ Hi, I’m Ankush Raj Mahe Yam (ARMY), an aspiring software developer currently p
 
 Connect with me on:
 - **Search on Google:** [Ankush Raj Mahe Yam](https://www.google.com/search?q=ankush+raj+mahe+yam)
-- **LinkedIn:** [Ankush Raj Mahe Yam](https://linkedin.com/in/AnkushRajMaheYam)
-- **GitHub:** [Ankush Raj Mahe Yam](https://github.com/AnkushRajMaheYam)
-- **Instagram:** [@AnkushRajaMaheYam](https://instagram.com/AnkushRajaMaheYam)
-- **Facebook:** [Ankush Raj Mahe Yam](https://facebook.com/AnkushRajMaheYam)
+- **LinkedIn:** [Ankush Raj](https://linkedin.com/in/AnkushRajMaheYam)
+- **GitHub:** [Ankush Raj](https://github.com/AnkushRajMaheYam)
+- **Leetcode:** [Ankush Raj](https://leetcode.com/u/AnkushRajMaheYam/)
+- **Instagram:** [@AnkushRaj](https://instagram.com/AnkushRajaMaheYam)
+- **Facebook:** [Ankush Raj](https://facebook.com/AnkushRajMaheYam)
 
 ---
 

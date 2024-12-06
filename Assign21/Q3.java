@@ -1,4 +1,4 @@
-
+// WAJP to take user input and print whether the number is Prime or not.
 import java.util.Scanner;
 
 // WAJP to take user input and print whether the number is Prime or not.
