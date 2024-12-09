@@ -124,12 +124,18 @@ The assignment questions in this repository were obtained from the **Q-Spider an
 
 Hi, I’m Ankush Raj Mahe Yam (ARMY), an aspiring software developer currently pursuing Java Full Stack Development. I’m also involved in various business ventures, including a tech-based YouTube channel, a logistics business, and real estate projects.
 
-Connect with me on:
-- **Search on Google:** [Ankush Raj Mahe Yam](https://www.google.com/search?q=ankush+raj+mahe+yam)
-- **LinkedIn:** [Ankush Raj Mahe Yam](https://linkedin.com/in/AnkushRajMaheYam)
-- **GitHub:** [Ankush Raj Mahe Yam](https://github.com/AnkushRajMaheYam)
-- **Instagram:** [@AnkushRajaMaheYam](https://instagram.com/AnkushRajaMaheYam)
-- **Facebook:** [Ankush Raj Mahe Yam](https://facebook.com/AnkushRajMaheYam)
+🌐 **Connect with Me!**  
+Feel free to explore more of my work and get in touch:  
+🔍 **Search on Google:** [Ankush Raj Mahe Yam](https://www.google.com/search?q=ankush+raj+mahe+yam)  
+🌟 **Portfolio:** [Ankush Raj](https://ankushrajamaheyam.blogspot.com)  
+💼 **LinkedIn:** [Ankush Raj](https://linkedin.com/in/AnkushRajMaheYam)  
+💻 **GitHub:** [Ankush Raj](https://github.com/AnkushRajMaheYam)  
+🎯 **LeetCode:** [Ankush Raj](https://leetcode.com/u/AnkushRajMaheYam)  
+🏅 **HackerRank:** [Ankush Raj](https://www.hackerrank.com/profile/ankushrajmaheyam)  
+📸 **Instagram:** [Ankush Raj](https://instagram.com/AnkushRajaMaheYam)  
+📘 **Facebook:** [Ankush Raj](https://facebook.com/AnkushRajMaheYam)  
+🎨 **Fiverr:** [Ankush Raj](https://www.fiverr.com/ankushrajmaheya)  
+🛠️ **Upwork:** [Ankush Raj](https://www.upwork.com/freelancers/~01bf6d1e8483199ba6) 
 
 ---
 ## **Acknowledgements**
