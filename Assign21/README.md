@@ -459,17 +459,18 @@ The Projectment questions in this repository were obtained from the **Q-Spider a
 
 Hi, I’m Ankush Raj Mahe Yam (ARMY), an aspiring software developer currently pursuing Java Full Stack Development. I’m also involved in various business ventures, including a tech-based YouTube channel, a logistics business, and real estate projects.
 
-Connect with me on:
-- **Search on Google:** [Ankush Raj Mahe Yam](https://www.google.com/search?q=ankush+raj+mahe+yam)
-- **Portfolio:** [Ankush Raj](https://ankushrajamaheyam.blogspot.com/)
-- **LinkedIn:** [Ankush Raj](https://linkedin.com/in/AnkushRajMaheYam)
-- **GitHub:** [Ankush Raj](https://github.com/AnkushRajMaheYam)
-- **Leetcode:** [Ankush Raj](https://leetcode.com/u/AnkushRajMaheYam/)
-- **HackerRank:** [Ankush Raj](https://www.hackerrank.com/profile/ankushrajmaheyam/)
-- **Instagram:** [@AnkushRaj](https://instagram.com/AnkushRajaMaheYam)
-- **Facebook:** [Ankush Raj](https://facebook.com/AnkushRajMaheYam)
-- **Fiverr:** [Ankush Raj](https://www.fiverr.com/ankushrajmaheya/)
-- **Upwork:** [Ankush Raj](https://www.upwork.com/freelancers/~01bf6d1e8483199ba6)
+🌟 **Connect with Me:**  
+🔍 [Search on Google](https://www.google.com/search?q=ankush+raj+mahe+yam)  
+🌟 [Portfolio](https://ankushrajamaheyam.blogspot.com/)  
+💼 [LinkedIn](https://linkedin.com/in/AnkushRajMaheYam)  
+💻 [GitHub](https://github.com/AnkushRajMaheYam)  
+🎯 [LeetCode](https://leetcode.com/u/AnkushRajMaheYam/)  
+🏅 [HackerRank](https://www.hackerrank.com/profile/ankushrajmaheyam/)  
+📸 [Instagram](https://instagram.com/AnkushRajaMaheYam)  
+📘 [Facebook](https://facebook.com/AnkushRajMaheYam)  
+🎨 [Fiverr](https://www.fiverr.com/ankushrajmaheya/)  
+🛠️ [Upwork](https://www.upwork.com/freelancers/~01bf6d1e8483199ba6)  
+
 
 ---
 
