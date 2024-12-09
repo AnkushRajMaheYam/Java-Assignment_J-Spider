@@ -1,9 +1,11 @@
+// WAJP to print all palindrome numbers in a range that are also prime numbers.
 
-//     WAJP to print all palindrome numbers in a range that are also prime numbers.
+import java.util.Scanner;
+
 
 public class Q10 {
     public static boolean isPalindromeNum(int n){
-        int originalNum = 1;
+        int originalNum = n;
         int reverse = 0;
         if(n<0)
             return false;
@@ -31,6 +33,22 @@ public class Q10 {
 
 
     public static void main(String [] args){
-        System.out.println("happy ending");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Your 1st Number :");
+        int n = sc.nextInt();
+
+        System.out.print("Enter you last Number : ");
+        int m = sc.nextInt();
+
+        int count = 0;
+        for(int i = n; i<=m; i++){
+            if(isPalindromeNum(i) && isPrimeNum(i)){
+                System.out.print(i+" ");
+                
+                count++;
+            }
+        }
+        System.out.println("Total that type of number is : "+count);
+
     }
 }

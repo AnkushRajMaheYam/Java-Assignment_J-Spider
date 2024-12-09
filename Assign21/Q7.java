@@ -19,7 +19,7 @@ public class Q7 {
 
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number to ceck Palidrome or not : ");
+        System.out.print("Enter a number to check Palidrome or not : ");
 
         int n = sc.nextInt();
 
