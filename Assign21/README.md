@@ -87,16 +87,12 @@ A **palindrome number** is a number that remains the same when its digits are re
 - A palindrome number reads the same forwards and backwards.
 - Examples of palindrome numbers are `121`, `454`, `12321`, `999`, etc.
 
----
-
 ### **How to Check if a Number is Palindrome**
 
 To determine if a number is a palindrome:
 1. Reverse the digits of the number.
 2. Compare the reversed number to the original number.
 3. If they are the same, the number is a palindrome.
-
----
 
 ### **Example**
 
@@ -112,11 +108,10 @@ To determine if a number is a palindrome:
 
 ---
 
-
-
 8. **Palindrome Numbers in a Range**  
    WAJP to print and count all the palindrome numbers in a given range.  
    **Q8**
+---
 
 9. **LeetCode Palindrome Problem**  
    [Link](https://leetcode.com/problems/palindrome-number/description/)  
@@ -155,6 +150,7 @@ Constraints:
 10. **Prime Palindrome Numbers**  
     WAJP to print all palindrome numbers in a range that are also prime numbers.  
     **Q10**
+---
 
 11. **LeetCode Prime Palindrome Problem**  
     [Link](https://leetcode.com/problems/prime-palindrome/description/)  
