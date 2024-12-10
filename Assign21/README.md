@@ -87,16 +87,12 @@ A **palindrome number** is a number that remains the same when its digits are re
 - A palindrome number reads the same forwards and backwards.
 - Examples of palindrome numbers are `121`, `454`, `12321`, `999`, etc.
 
----
-
 ### **How to Check if a Number is Palindrome**
 
 To determine if a number is a palindrome:
 1. Reverse the digits of the number.
 2. Compare the reversed number to the original number.
 3. If they are the same, the number is a palindrome.
-
----
 
 ### **Example**
 
@@ -112,11 +108,10 @@ To determine if a number is a palindrome:
 
 ---
 
-
-
 8. **Palindrome Numbers in a Range**  
    WAJP to print and count all the palindrome numbers in a given range.  
    **Q8**
+---
 
 9. **LeetCode Palindrome Problem**  
    [Link](https://leetcode.com/problems/palindrome-number/description/)  
@@ -155,6 +150,7 @@ Constraints:
 10. **Prime Palindrome Numbers**  
     WAJP to print all palindrome numbers in a range that are also prime numbers.  
     **Q10**
+---
 
 11. **LeetCode Prime Palindrome Problem**  
     [Link](https://leetcode.com/problems/prime-palindrome/description/)  
@@ -463,17 +459,18 @@ The Projectment questions in this repository were obtained from the **Q-Spider a
 
 Hi, I’m Ankush Raj Mahe Yam (ARMY), an aspiring software developer currently pursuing Java Full Stack Development. I’m also involved in various business ventures, including a tech-based YouTube channel, a logistics business, and real estate projects.
 
-Connect with me on:
-- **Search on Google:** [Ankush Raj Mahe Yam](https://www.google.com/search?q=ankush+raj+mahe+yam)
-- **Portfolio:** [Ankush Raj](https://ankushrajamaheyam.blogspot.com/)
-- **LinkedIn:** [Ankush Raj](https://linkedin.com/in/AnkushRajMaheYam)
-- **GitHub:** [Ankush Raj](https://github.com/AnkushRajMaheYam)
-- **Leetcode:** [Ankush Raj](https://leetcode.com/u/AnkushRajMaheYam/)
-- **HackerRank:** [Ankush Raj](https://www.hackerrank.com/profile/ankushrajmaheyam/)
-- **Instagram:** [@AnkushRaj](https://instagram.com/AnkushRajaMaheYam)
-- **Facebook:** [Ankush Raj](https://facebook.com/AnkushRajMaheYam)
-- **Fiverr:** [Ankush Raj](https://www.fiverr.com/ankushrajmaheya/)
-- **Upwork:** [Ankush Raj](https://www.upwork.com/freelancers/~01bf6d1e8483199ba6)
+🌟 **Connect with Me:**  
+🔍 [Search on Google](https://www.google.com/search?q=ankush+raj+mahe+yam)  
+🌟 [Portfolio](https://ankushrajamaheyam.blogspot.com/)  
+💼 [LinkedIn](https://linkedin.com/in/AnkushRajMaheYam)  
+💻 [GitHub](https://github.com/AnkushRajMaheYam)  
+🎯 [LeetCode](https://leetcode.com/u/AnkushRajMaheYam/)  
+🏅 [HackerRank](https://www.hackerrank.com/profile/ankushrajmaheyam/)  
+📸 [Instagram](https://instagram.com/AnkushRajaMaheYam)  
+📘 [Facebook](https://facebook.com/AnkushRajMaheYam)  
+🎨 [Fiverr](https://www.fiverr.com/ankushrajmaheya/)  
+🛠️ [Upwork](https://www.upwork.com/freelancers/~01bf6d1e8483199ba6)  
+
 
 ---
 
