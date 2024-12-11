@@ -1,4 +1,3 @@
-
 // WAJP to take user input and print whether the number is a Dissarium number or not.
 import java.util.Scanner;
 
@@ -18,11 +17,11 @@ public class Q15 {
             return false;
         int originalNum=n;
         int sumOf=0;
-        int count=1; -> //int count = Integer.toString(n).length();
+        int count = Integer.toString(n).length(); //wrapper class concept use here 
             while (n > 0) {
                 int digit = n % 10; 
                 sumOf += powNum(digit, count);
-                count++; -> //count--;
+                count--;
                 
                 n /= 10; 
             }

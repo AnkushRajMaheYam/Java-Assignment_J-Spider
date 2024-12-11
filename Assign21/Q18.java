@@ -1,5 +1,4 @@
-import java.util.Scanner;
-
+// WAJP to print and count all the Happy numbers up to 100. 
 public class Q18 {
     public static boolean  isHappyNum(int n){
         while(n>9){
@@ -15,17 +14,14 @@ public class Q18 {
     }
 
     public  static void main(String [] args){
-        Scanner sc = new Scanner(System.in);
+        int count=0;
+        for(int i=1; i<=100; i++){
+            if(isHappyNum(i)){
 
-        System.out.print("Enter Your Number : " );
-
-        int n = sc.nextInt();
-
-        if(isHappyNum(n)){
-            System.out.println(n+ " is a Happy Number.");
+                System.out.println(i);
+                count++;
+            }
         }
-        else{
-            System.out.println(n+" is not a happy number.");
-        }
+        System.out.println("Total Number of Happy Number is : "+count);
     }
 }

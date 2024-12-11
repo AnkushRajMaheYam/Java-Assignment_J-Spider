@@ -114,15 +114,12 @@ To determine if a number is a palindrome:
 ---
 
 9. **LeetCode Palindrome Problem**  
-   [Link](https://leetcode.com/problems/palindrome-number/description/)  
+   [Given an integer x, return true if x is a 
+palindrome, and false otherwise.](https://leetcode.com/problems/palindrome-number/description/)  
    **Q9**
 
 - **Leetcode Answer Link:** [Palindrome Solutions](https://leetcode.com/submissions/detail/1471843450/)
 
-Given an integer x, return true if x is a 
-palindrome, and false otherwise.
-
- 
 
 Example 1:
 
@@ -153,12 +150,10 @@ Constraints:
 ---
 
 11. **LeetCode Prime Palindrome Problem**  
-    [Link](https://leetcode.com/problems/prime-palindrome/description/)  
+    [Given an integer n, return the smallest prime palindrome greater than or equal to n.](https://leetcode.com/problems/prime-palindrome/description/)  
     **Q11**
 
     - **Leetcode Answer Link:** [PrimePalindrome Solutions](https://leetcode.com/problems/prime-palindrome/solutions/6129991/very-simple-way-solution-in-java-for-smallest-prime-palindrome-greater-than-or-equal-to-n/)
-
-    Given an integer n, return the smallest prime palindrome greater than or equal to n.
 
 An integer is prime if it has exactly two divisors: 1 and itself. Note that 1 is not a prime number.
 
@@ -253,13 +248,10 @@ A **perfect number** is a positive integer that is equal to the sum of its **pro
 ---
 
 14. **LeetCode Perfect Number Problem**  
-    [Link](https://leetcode.com/problems/perfect-number/description/)  
+    [Given an integer n, return true if n is a perfect number, otherwise return false.](https://leetcode.com/problems/perfect-number/description/)  
     **Q14**
     A perfect number is a positive integer that is equal to the sum of its positive divisors, excluding the number itself. A divisor of an integer x is an integer that can divide x evenly.
 
-Given an integer n, return true if n is a perfect number, otherwise return false.
-
- 
 
 Example 1:
 
@@ -277,7 +269,7 @@ Constraints:
 
 1 <= num <= 108
 
-- **Leetcode Answer Link:** [Perfect Number](https://leetcode.com/problems/perfect-number/solutions/6133614/ease-way-in-java-for-perfect-number-by-ankush-raj/)
+- **Leetcode Answer Link:** [Easiest Solution to determine Perfect Number](https://leetcode.com/problems/perfect-number/solutions/6133614/ease-way-in-java-for-perfect-number-by-ankush-raj/)
     
 
 ---
@@ -365,8 +357,70 @@ Numbers that do not satisfy this property are **not Disarium Numbers**. For exam
 ---
 
 17. **LeetCode Happy Number Problem**  
-    [Link](https://leetcode.com/problems/happy-number/)  
+    [Write an algorithm to determine if a number n is happy.](https://leetcode.com/problems/happy-number/)  
     **Q17**
+
+    
+    - **Leetcode Answer Link:** [World's Easiest Solution to Determine a Happy Number](https://leetcode.com/problems/happy-number/solutions/6136792/world-s-easiest-solution-to-determine-a-happy-number-ankush-raj-ankush-raj-mahe-yam/)
+
+
+
+    ### **What is a Happy Number?**
+
+A **happy number** is a positive integer that satisfies the following process:  
+
+1. **Sum of Squares of Digits**:
+   - Starting with any positive integer \( n \), replace it with the sum of the squares of its digits.  
+
+2. **Repeat the Process**:
+   - Continue replacing the number with the sum of the squares of its digits until one of the following happens:
+     - The number becomes `1` (indicating the number is happy).  
+     - The number enters a cycle that does not include `1` (indicating the number is not happy).  
+
+
+### **Examples of Happy Numbers**
+
+#### **Example 1**: \( n = 19 \)  
+- \( 19 \rightarrow 1^2 + 9^2 = 82 \)  
+- \( 82 \rightarrow 8^2 + 2^2 = 68 \)  
+- \( 68 \rightarrow 6^2 + 8^2 = 100 \)  
+- \( 100 \rightarrow 1^2 + 0^2 + 0^2 = 1 \)  
+- \( n = 19 \) is a happy number because the process ends at `1`.  
+
+#### **Example 2**: \( n = 7 \)  
+- \( 7 \rightarrow 7^2 = 49 \)  
+- \( 49 \rightarrow 4^2 + 9^2 = 97 \)  
+- \( 97 \rightarrow 9^2 + 7^2 = 130 \)  
+- \( 130 \rightarrow 1^2 + 3^2 + 0^2 = 10 \)  
+- \( 10 \rightarrow 1^2 + 0^2 = 1 \)  
+- \( n = 7 \) is also a happy number.  
+
+
+
+### **Examples of Unhappy Numbers**
+
+#### **Example 1**: \( n = 4 \)  
+- \( 4 \rightarrow 4^2 = 16 \)  
+- \( 16 \rightarrow 1^2 + 6^2 = 37 \)  
+- \( 37 \rightarrow 3^2 + 7^2 = 58 \)  
+- \( 58 \rightarrow 5^2 + 8^2 = 89 \)  
+- \( 89 \rightarrow 8^2 + 9^2 = 145 \)  
+- \( 145 \rightarrow 1^2 + 4^2 + 5^2 = 42 \)  
+- \( 42 \rightarrow 4^2 + 2^2 = 20 \)  
+- \( 20 \rightarrow 2^2 + 0^2 = 4 \) (Cycle starts again).  
+
+The number `4` is not a happy number because it enters a cycle and never reaches `1`.  
+
+### **Key Characteristics**
+1. **Happy Numbers Always Reach `1`**:
+   - If the process results in `1`, the number is happy.  
+
+2. **Unhappy Numbers Enter a Cycle**:
+   - Numbers that are not happy will enter a repetitive cycle of values.  
+
+3. **Properties of Happy Numbers**:
+   - Happy numbers are always positive integers.  
+   - Numbers like \( 1 \) and \( 7 \) are inherently happy.  
 
 ---
 
@@ -375,18 +429,76 @@ Numbers that do not satisfy this property are **not Disarium Numbers**. For exam
     **Q18**
 
     n=86 -> sum of sq = 64+36=100 -> sum of sq = 1+0+0 =1 (check one digit number(if it is equal to 1 and 7 ))
+    
+---
 
 19. **Automorphic Number Check**  
     WAJP to take user input and print whether the number is Automorphic or not.  
     **Q19**
 
+    ### **What is an Automorphic Number?**
+
+An **Automorphic Number** is a number whose **square ends with the same digits as the number itself**.  
+
+#### **Definition**:
+If a number \( n \) satisfies the condition:  
+\[
+n^2 \, \text{(ends with)} \, n
+\]
+then \( n \) is an **Automorphic Number**.
+
+### **Examples of Automorphic Numbers**
+
+#### **Example 1**: \( 5 \)  
+- \( 5^2 = 25 \)  
+- The square (\( 25 \)) ends with the same digit as the number (\( 5 \)).  
+- Therefore, \( 5 \) is an Automorphic Number.
+
+#### **Example 2**: \( 6 \)  
+- \( 6^2 = 36 \)  
+- The square (\( 36 \)) ends with the same digit as the number (\( 6 \)).  
+- Therefore, \( 6 \) is an Automorphic Number.
+
+#### **Example 3**: \( 76 \)  
+- \( 76^2 = 5776 \)  
+- The square (\( 5776 \)) ends with the same digits as the number (\( 76 \)).  
+- Therefore, \( 76 \) is an Automorphic Number.
+
+### **Non-Automorphic Numbers**
+
+#### **Example**: \( 7 \)  
+- \( 7^2 = 49 \)  
+- The square (\( 49 \)) does not end with the same digit as the number (\( 7 \)).  
+- Therefore, \( 7 \) is not an Automorphic Number.
+
+### **How to Check for Automorphic Numbers**
+
+1. **Square the Number**:
+   - Compute the square of the given number.
+
+2. **Compare Digits**:
+   - Extract the last \( d \) digits of the square, where \( d \) is the number of digits in \( n \).  
+   - Compare the extracted digits with the original number.
+
+### **Properties of Automorphic Numbers**
+
+1. Automorphic numbers can exist in any number system (e.g., base 10, base 2).  
+2. Automorphic numbers are also known as **curious numbers**.  
+3. Some examples of automorphic numbers in base 10 are:  
+   \( 1, 5, 6, 25, 76, 376, 625, 9376 \).  
+
+
+---
+
 20. **All Automorphic Numbers Up to 100**  
     WAJP to print and count all the Automorphic numbers up to 100.  
     **Q20**
+---
 
 21. **LeetCode Fascinating Number Problem**  
     [Link](https://leetcode.com/problems/check-if-the-number-is-fascinating/description/)  
     **Q21**
+---
 
 22. **All Fascinating Numbers Up to 10000**  
     WAJP to print and count all the Fascinating numbers up to 10000.  
@@ -394,17 +506,108 @@ Numbers that do not satisfy this property are **not Disarium Numbers**. For exam
 
     n=192 
     string = n + "" + n*2 + "" + n*3; = "192384576"
+---
+
 23. **Strong Number Check**  
     WAJP to take user input and print whether the number is Strong or not.  
     **Q23**
 
+### **What is a Strong Number?**
+
+A **Strong Number** is a number in which the sum of the **factorials of its digits** is equal to the number itself.
+
+#### **Definition**:
+If a number \( n \) has digits \( d_1, d_2, \ldots, d_k \), it is a **Strong Number** if:
+\[
+n = d_1! + d_2! + \ldots + d_k!
+\]
+Where \( d_i! \) represents the factorial of the digit \( d_i \).
+
+### **Examples of Strong Numbers**
+
+#### **Example 1**: \( 145 \)  
+- Digits: \( 1, 4, 5 \)  
+- Factorials:
+  \[
+  1! = 1,\; 4! = 24,\; 5! = 120
+  \]
+- Sum of factorials:
+  \[
+  1 + 24 + 120 = 145
+  \]
+- Since the sum equals the original number, \( 145 \) is a **Strong Number**.
+
+#### **Example 2**: \( 2 \)  
+- Digits: \( 2 \)  
+- Factorials:
+  \[
+  2! = 2
+  \]
+- Sum of factorials:
+  \[
+  2
+  \]
+- Since the sum equals the original number, \( 2 \) is a **Strong Number**.
+
+#### **Example 3**: \( 40585 \)  
+- Digits: \( 4, 0, 5, 8, 5 \)  
+- Factorials:
+  \[
+  4! = 24,\; 0! = 1,\; 5! = 120,\; 8! = 40320,\; 5! = 120
+  \]
+- Sum of factorials:
+  \[
+  24 + 1 + 120 + 40320 + 120 = 40585
+  \]
+- Since the sum equals the original number, \( 40585 \) is a **Strong Number**.
+
+### **Non-Strong Numbers**
+
+#### **Example**: \( 10 \)  
+- Digits: \( 1, 0 \)  
+- Factorials:
+  \[
+  1! = 1,\; 0! = 1
+  \]
+- Sum of factorials:
+  \[
+  1 + 1 = 2
+  \]
+- Since the sum (\( 2 \)) does not equal the original number (\( 10 \)), \( 10 \) is **not a Strong Number**.
+
+
+### **How to Check for a Strong Number**
+
+1. **Extract Digits**:
+   - Break the number into its individual digits.
+
+2. **Calculate Factorials**:
+   - Compute the factorial of each digit.
+
+3. **Sum the Factorials**:
+   - Add up the factorials of all the digits.
+
+4. **Compare with Original**:
+   - If the sum equals the original number, it is a Strong Number.
+
+### **Properties of Strong Numbers**
+
+1. Strong Numbers are rare.
+2. Examples of Strong Numbers are:  
+   \( 1, 2, 145, 40585 \).
+
+
+---
+
 24. **All Strong Numbers Up to 100**  
     WAJP to print and count all the Strong numbers up to 100.  
     **Q24**
+---
 
 25. **Swap Two Numbers Using Third Variable**  
     WAJP to swap two numbers using a third variable.  
     **Q25**
+---
 
 26. **Swap Two Numbers Without Third Variable**  
     WAJP to swap two numbers without using a third variable.  
