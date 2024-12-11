@@ -194,25 +194,181 @@ Constraints:
     WAJP to take user input and print whether the number is a perfect number or not.  
     **Q12**
 
+    ### **What is a Perfect Number?**
+
+A **perfect number** is a positive integer that is equal to the sum of its **proper divisors** (excluding itself).  
+
+#### **Key Characteristics**:
+1. A number \( n \) is perfect if the sum of its divisors (excluding \( n \) itself) equals \( n \).  
+2. Proper divisors are the positive divisors of \( n \) other than \( n \) itself.  
+
+---
+
+### **Examples of Perfect Numbers**
+
+#### **Example 1**: \( 6 \)  
+- Proper divisors of \( 6 \): \( 1, 2, 3 \).  
+- Sum of divisors: \( 1 + 2 + 3 = 6 \).  
+- \( 6 \) is a perfect number.  
+
+#### **Example 2**: \( 28 \)  
+- Proper divisors of \( 28 \): \( 1, 2, 4, 7, 14 \).  
+- Sum of divisors: \( 1 + 2 + 4 + 7 + 14 = 28 \).  
+- \( 28 \) is a perfect number.  
+
+#### **Example 3**: \( 496 \)  
+- Proper divisors of \( 496 \): \( 1, 2, 4, 8, 16, 31, 62, 124, 248 \).  
+- Sum of divisors: \( 1 + 2 + 4 + 8 + 16 + 31 + 62 + 124 + 248 = 496 \).  
+- \( 496 \) is a perfect number.  
+
+### **Properties of Perfect Numbers**
+
+1. **Rarity**: Perfect numbers are rare and grow very large quickly.  
+2. **Relationship with Mersenne Primes**:  
+   - A number is perfect if and only if it can be written in the form:  
+     \[
+     n = 2^{p-1} \times (2^p - 1)
+     \]  
+     where \( 2^p - 1 \) is a **Mersenne prime** (a prime number of the form \( 2^p - 1 \)).  
+   - For example:  
+     - \( p = 2 \): \( 2^{2-1} \times (2^2 - 1) = 1 \times 3 = 6 \).  
+     - \( p = 3 \): \( 2^{3-1} \times (2^3 - 1) = 4 \times 7 = 28 \).  
+
+3. **Even Nature**: All known perfect numbers are even. It is unknown if odd perfect numbers exist.  
+
+
+### **How to Check if a Number is Perfect**
+
+1. Find all divisors of the number (excluding itself).  
+2. Compute the sum of these divisors.  
+3. Compare the sum with the original number:  
+   - If they are equal, the number is perfect.  
+
+---
+
+
 13. **All Perfect Numbers Up to 100**  
     WAJP to print and count all the perfect numbers up to 100.  
     **Q13**
+---
 
 14. **LeetCode Perfect Number Problem**  
     [Link](https://leetcode.com/problems/perfect-number/description/)  
     **Q14**
+    A perfect number is a positive integer that is equal to the sum of its positive divisors, excluding the number itself. A divisor of an integer x is an integer that can divide x evenly.
+
+Given an integer n, return true if n is a perfect number, otherwise return false.
+
+ 
+
+Example 1:
+
+Input: num = 28
+Output: true
+Explanation: 28 = 1 + 2 + 4 + 7 + 14
+1, 2, 4, 7, and 14 are all divisors of 28.
+Example 2:
+
+Input: num = 7
+Output: false
+ 
+
+Constraints:
+
+1 <= num <= 108
+
+- **Leetcode Answer Link:** [Perfect Number](https://leetcode.com/problems/perfect-number/solutions/6133614/ease-way-in-java-for-perfect-number-by-ankush-raj/)
+    
+
+---
 
 15. **Dissarium Number Check**  
     WAJP to take user input and print whether the number is a Dissarium number or not.  
     **Q15**
+    
+A **Disarium Number** is a number where the sum of its digits, each raised to the power of its positional order, equals the number itself.
+
+#### **Formula**:
+For a number \( n \) with digits \( d_1, d_2, \dots, d_k \):
+\[
+n = d_1^1 + d_2^2 + \dots + d_k^k
+\]
+Where \( d_1 \) is the first digit, \( d_2 \) is the second digit, and so on.
+
+
+### **Examples of Disarium Numbers**
+
+#### **Example 1**: \( 135 \)  
+- Digits: \( 1, 3, 5 \)  
+- Positional Powers:  
+  \[
+  1^1 + 3^2 + 5^3 = 1 + 9 + 125 = 135
+  \]
+- Since the sum equals the original number, \( 135 \) is a Disarium Number.
+
+#### **Example 2**: \( 89 \)  
+- Digits: \( 8, 9 \)  
+- Positional Powers:  
+  \[
+  8^1 + 9^2 = 8 + 81 = 89
+  \]
+- Since the sum equals the original number, \( 89 \) is a Disarium Number.
+
+#### **Example 3**: \( 175 \)  
+- Digits: \( 1, 7, 5 \)  
+- Positional Powers:  
+  \[
+  1^1 + 7^2 + 5^3 = 1 + 49 + 125 = 175
+  \]
+- \( 175 \) is a Disarium Number.
+
+
+### **Non-Disarium Numbers**
+Numbers that do not satisfy this property are **not Disarium Numbers**. For example:
+
+#### **Example**: \( 10 \)  
+- Digits: \( 1, 0 \)  
+- Positional Powers:  
+  \[
+  1^1 + 0^2 = 1 + 0 = 1
+  \]
+- Since \( 1 \neq 10 \), \( 10 \) is not a Disarium Number.
+
+
+### **How to Identify a Disarium Number**
+
+1. **Extract Digits**:
+   - Break the number into its individual digits.
+
+2. **Compute Positional Powers**:
+   - Raise each digit to the power of its positional index (starting from 1).
+
+3. **Sum the Powers**:
+   - Compute the sum of all these powers.
+
+4. **Compare with the Original Number**:
+   - If the sum equals the original number, it is a Disarium Number.
+
+
+### **Examples of Disarium Numbers (Below 200)**
+- \( 1, 2, 3, 4, 5, 6, 7, 8, 9, 89, 135, 175 \)
+
+
+
+
+---
 
 16. **All Dissarium Numbers Up to 1000**  
     WAJP to print and count all the Dissarium numbers up to 1000.  
     **Q16**
 
+---
+
 17. **LeetCode Happy Number Problem**  
     [Link](https://leetcode.com/problems/happy-number/)  
     **Q17**
+
+---
 
 18. **All Happy Numbers Up to 100**  
     WAJP to print and count all the Happy numbers up to 100.  
