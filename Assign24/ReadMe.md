@@ -1,5 +1,18 @@
 # **Pattern Programming**
+<<<<<<< HEAD
 
+=======
+More Pattern Based Questions uploaded in this folder link :-
+   https://github.com/AnkushRajMaheYam/Java-Assignment_J-Spider/tree/main/Assign24
+   
+   - Folder Structure :-
+   ```
+   Java-Assignment_J-Spider/
+   ├── Assign24/
+   └── Q24.java
+   ```
+---
+>>>>>>> d6bc61696e065413167e93304a17ea178556f261
                                                                                                     date : - 06-12-2024
 1.
 ```
