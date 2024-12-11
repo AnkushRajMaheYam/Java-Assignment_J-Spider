@@ -3,10 +3,11 @@ More Pattern Based Questions uploaded in this folder link :-
    https://github.com/AnkushRajMaheYam/Java-Assignment_J-Spider/tree/main/Assign24
    
    - Folder Structure :-
+   ```
    Java-Assignment_J-Spider/
    ├── Assign24/
    └── Q24.java
-
+   ```
 ---
                                                                                                     date : - 06-12-2024
 1.
