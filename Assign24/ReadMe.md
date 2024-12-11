@@ -1,7 +1,6 @@
 # **Pattern Programming**
 More Pattern Based Questions uploaded in this folder link :-
-   https://github.com/AnkushRajMaheYam/Java-Assignment_J-Spider/tree/main/
-   Assign24
+   https://github.com/AnkushRajMaheYam/Java-Assignment_J-Spider/tree/main/Assign24
    
    - Folder Structure :-
    Java-Assignment_J-Spider/
