@@ -363,6 +363,8 @@ More Pattern Based Questions uploaded in this folder link :-
   1 0 1 0 1 0 
 1 0 1 0 1 0 1 
 
+
+```
 33.
 ```
 1 0 1 0 1 0 1 
