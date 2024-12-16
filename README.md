@@ -122,7 +122,7 @@ The assignment questions in this repository were obtained from the **Q-Spider an
 
 ## About Me
 
-Hi, I’m Ankush Raj Mahe Yam (ARMY), an aspiring software developer currently pursuing Java Full Stack Development. I’m also involved in various business ventures, including a tech-based YouTube channel, a logistics business, and real estate projects.
+Hi, I’m **Ankush Raj** or **Ankush Raj Mahe Yam**(ARMY), an aspiring software developer currently pursuing Java Full Stack Development. I’m also involved in various business ventures, including a tech-based YouTube channel, a logistics business, and real estate projects.
 
 🌐 **Connect with Me!**  
 Feel free to explore more of my work and get in touch:  
