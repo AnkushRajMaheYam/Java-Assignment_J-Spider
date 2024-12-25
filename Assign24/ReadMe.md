@@ -807,6 +807,13 @@ More Pattern Based Questions uploaded in this folder link :-
 68.
 
 ```
+              *             @             @             *
+            * * *           @             @           * * * 
+          * * * * *         @             @         * * * * *
+        * * * * * * *       @             @       * * * * * * *
+      * * * * * * * * *     @             @     * * * * * * * * *
+    * * * * * * * * * * *   @             @   * * * * * * * * * * *
+  * * * * * * * * * * * * * @ @ @ @ @ @ @ @ * * * * * * * * * * * * *
 
 
 ```
@@ -815,7 +822,11 @@ More Pattern Based Questions uploaded in this folder link :-
 69.
 
 ```
-
+* * * * *     @     * * * * *  
+*       *   @ @ @   *       *
+*       * @ @ @ @ @ *       *
+*       *   @ @ @   *       *
+* * * * *     @     * * * * *
 
 ```
 
@@ -823,7 +834,11 @@ More Pattern Based Questions uploaded in this folder link :-
 70.
 
 ```
-
+    *             @             *
+  * * *         @ @ @         * * *
+* * * * *     @ @ @ @ @     * * * * *
+  * * *     @ @ @ @ @ @ @     * * *
+    *     @ @ @ @ @ @ @ @ @     *
 
 ```
 ---
