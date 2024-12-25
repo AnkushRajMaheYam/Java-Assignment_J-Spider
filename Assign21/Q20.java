@@ -1,9 +1,6 @@
+// WAJP to print and count all the Automorphic numbers up to 100.
 
-// WAJP to take user input and print whether the number is Automorphic or not.
-
-import java.util.Scanner;
-
-public class Q19 {
+public class Q20 {
     public static boolean isAutomorphic(int n){
 
             int sqOfNum = n*n;
@@ -22,19 +19,15 @@ public class Q19 {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a Number : ");
-        int n = sc.nextInt();
-        if(isAutomorphic(n)){
-            System.out.println(n +" is Automorphic Number.");
+        int count=0;
+        for(int i = 1; i<=100; i++){
+            if(isAutomorphic(i)){
+                System.out.print(i+", ");
+                count++;
+            }
+            
         }
-        else{
-            System.out.println(n +" is not a Automorphic Number.");
-        }
-
+        System.out.println();
+        System.out.println("Total Number of Automorphic is : "+count);
     }
-
 }
-
-
-

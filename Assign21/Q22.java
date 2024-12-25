@@ -1,7 +1,7 @@
+// WAJP to print and count all the Fascinating numbers up to 10000.
 
 import java.util.Scanner;
 
-// WAJP to print and count all the Fascinating numbers up to 10000.
 
 public class Q22 {
     public static boolean isFascinating(int n){
@@ -29,7 +29,7 @@ public class Q22 {
         int n = sc.nextInt();
 
         if(isFascinating(n)){
-            System.out.println(n+ "is facneting number");
+            System.out.println(n+ " is facneting number");
         }
         else{
             System.out.println(n+" is not a facneting number");

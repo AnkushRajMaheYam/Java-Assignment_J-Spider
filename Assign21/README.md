@@ -496,8 +496,72 @@ then \( n \) is an **Automorphic Number**.
 ---
 
 21. **LeetCode Fascinating Number Problem**  
-    [Link](https://leetcode.com/problems/check-if-the-number-is-fascinating/description/)  
+    [2729. Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/description/)  
     **Q21**
+
+    [Solution for Check a Number is Fascinating or not](https://leetcode.com/problems/check-if-the-number-is-fascinating/post-solution/?submissionId=1488188206)
+
+
+### **What is a Fascinating Number?**
+
+A **Fascinating Number** is a number that, when concatenated with its multiples (usually 2 and 3), contains all the digits from 1 to 9 exactly once. Fascinating Numbers do not contain the digit 0 and are typically 3-digit or higher.
+
+
+### **Definition**
+A number \( n \) is **Fascinating** if:
+1. Concatenate \( n \), \( n \times 2 \), and \( n \times 3 \).
+2. Check if the concatenated result contains **exactly all digits 1 to 9, once each**.
+3. If true, \( n \) is Fascinating.
+
+
+
+### **Examples of Fascinating Numbers**
+
+#### **Example 1: \( 192 \)**
+- Original Number: \( 192 \)
+- \( n \times 1 = 192 \), \( n \times 2 = 384 \), \( n \times 3 = 576 \)
+- Concatenated Result: \( 192384576 \)
+- Check Digits: \( 192384576 \) contains **all digits from 1 to 9 exactly once**.
+- Conclusion: \( 192 \) is a Fascinating Number.
+
+#### **Example 2: \( 273 \)**
+- Original Number: \( 273 \)
+- \( n \times 1 = 273 \), \( n \times 2 = 546 \), \( n \times 3 = 819 \)
+- Concatenated Result: \( 273546819 \)
+- Check Digits: \( 273546819 \) contains **all digits from 1 to 9 exactly once**.
+- Conclusion: \( 273 \) is a Fascinating Number.
+
+
+
+### **Non-Fascinating Numbers**
+
+#### **Example: \( 123 \)**
+- Original Number: \( 123 \)
+- \( n \times 1 = 123 \), \( n \times 2 = 246 \), \( n \times 3 = 369 \)
+- Concatenated Result: \( 123246369 \)
+- Check Digits: \( 123246369 \) is missing \( 5, 7, 8 \).
+- Conclusion: \( 123 \) is **not a Fascinating Number**.
+
+
+
+### **Steps to Check if a Number is Fascinating**
+
+1. **Compute Multiples**:
+   - Multiply the number by \( 1 \), \( 2 \), and \( 3 \).
+2. **Concatenate Results**:
+   - Combine the results of \( n \), \( n \times 2 \), and \( n \times 3 \) into a single string.
+3. **Check Digits**:
+   - Ensure the concatenated string contains all digits \( 1 \) to \( 9 \), with no repetitions and no missing digits.
+
+
+
+### **Key Points**
+1. Fascinating Numbers are usually 3-digit or more.
+2. The digit 0 is excluded in the concatenated result.
+3. Examples of Fascinating Numbers:
+   - \( 192, 273, 327 \).
+
+
 ---
 
 22. **All Fascinating Numbers Up to 10000**  
@@ -614,8 +678,11 @@ Where \( d_i! \) represents the factorial of the digit \( d_i \).
     **Q26**
 
 27. **LeetCode Add Digits Problem**  
-    [Link](https://leetcode.com/problems/add-digits/description/)  
+    [258. Add Digits](https://leetcode.com/problems/add-digits/description/)  
     **Q27**
+    Given an integer num, repeatedly add all its digits until the result has only one digit, and return it.
+
+    [Add Digits Solution](https://leetcode.com/problems/add-digits/post-solution/?submissionId=1488249925)
 
 28. **Count Binary Bits in a Number**  
     WAJP to count the number of binary bits in a number.  
