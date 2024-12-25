@@ -18,8 +18,8 @@ Each problem is assigned a unique question number (e.g., `Q1`, `Q2`, etc.). Thes
 
 An **Armstrong number** (also known as a **narcissistic number**, **pluperfect digital invariant (PPDI)**) is a number that is equal to the sum of its digits each raised to the power of the number of digits.
 
-### **Examples of Armstrong Numbers**
-# The first few are given by 1, 2, 3, 4, 5, 6, 7, 8, 9, 153, 370, 371, 407, 1634, 8208, 9474, 54748, ... 
+**Examples of Armstrong Numbers**
+The first few are given by 1, 2, 3, 4, 5, 6, 7, 8, 9, 153, 370, 371, 407, 1634, 8208, 9474, 54748, ... 
 - 153: 
    - It has 3 digits.
    - 1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153.
@@ -41,19 +41,19 @@ An **Armstrong number** (also known as a **narcissistic number**, **pluperfect d
 3. **Prime Number Check**  
    WAJP to take user input and print whether the number is Prime or not.  
    **Q3**
-   ### **Definition of a Prime Number**
+     **Definition of a Prime Number**
 
 A **prime number** is a natural number greater than 1 that has no divisors other than 1 and itself. In other words, a prime number is only divisible by 1 and itself.
 
-### **Key Points**
+ **Key Points**
 1. A prime number must be **greater than 1**.
 2. It has **exactly two positive divisors**: 1 and the number itself.
 
-### **Examples of Prime Numbers**
+ **Examples of Prime Numbers**
 - 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, etc.
 
 
-### **Special Cases**
+ **Special Cases**
 - 2: The smallest and the only **even prime number**.
 - 1 : Not a prime number as it does not have two distinct positive divisors.
 ---
@@ -79,29 +79,27 @@ A **prime number** is a natural number greater than 1 that has no divisors other
    **Q7**
 
 
-   ### **Palindrome Number**
+ **Palindrome Number**
 
 A **palindrome number** is a number that remains the same when its digits are reversed.
 
-#### **Key Characteristics**:
+ **Key Characteristics**:
 - A palindrome number reads the same forwards and backwards.
 - Examples of palindrome numbers are `121`, `454`, `12321`, `999`, etc.
-
-### **How to Check if a Number is Palindrome**
+ **How to Check if a Number is Palindrome**
 
 To determine if a number is a palindrome:
 1. Reverse the digits of the number.
 2. Compare the reversed number to the original number.
 3. If they are the same, the number is a palindrome.
+ **Example**
 
-### **Example**
-
-#### **Palindrome**:
+ **Palindrome**:
 - **Input**: `121`
   - Reverse: `121`
   - Since `121 == 121`, it is a palindrome.
 
-#### **Not a Palindrome**:
+ **Not a Palindrome**:
 - **Input**: `123`
   - Reverse: `321`
   - Since `123 != 321`, it is not a palindrome.
@@ -189,34 +187,32 @@ Constraints:
     WAJP to take user input and print whether the number is a perfect number or not.  
     **Q12**
 
-    ### **What is a Perfect Number?**
+ **What is a Perfect Number?**
 
 A **perfect number** is a positive integer that is equal to the sum of its **proper divisors** (excluding itself).  
 
-#### **Key Characteristics**:
+ **Key Characteristics**:
 1. A number \( n \) is perfect if the sum of its divisors (excluding \( n \) itself) equals \( n \).  
 2. Proper divisors are the positive divisors of \( n \) other than \( n \) itself.  
 
 ---
+ **Examples of Perfect Numbers**
 
-### **Examples of Perfect Numbers**
-
-#### **Example 1**: \( 6 \)  
+ **Example 1**: \( 6 \)  
 - Proper divisors of \( 6 \): \( 1, 2, 3 \).  
 - Sum of divisors: \( 1 + 2 + 3 = 6 \).  
 - \( 6 \) is a perfect number.  
 
-#### **Example 2**: \( 28 \)  
+ **Example 2**: \( 28 \)  
 - Proper divisors of \( 28 \): \( 1, 2, 4, 7, 14 \).  
 - Sum of divisors: \( 1 + 2 + 4 + 7 + 14 = 28 \).  
 - \( 28 \) is a perfect number.  
 
-#### **Example 3**: \( 496 \)  
+ **Example 3**: \( 496 \)  
 - Proper divisors of \( 496 \): \( 1, 2, 4, 8, 16, 31, 62, 124, 248 \).  
 - Sum of divisors: \( 1 + 2 + 4 + 8 + 16 + 31 + 62 + 124 + 248 = 496 \).  
 - \( 496 \) is a perfect number.  
-
-### **Properties of Perfect Numbers**
+ **Properties of Perfect Numbers**
 
 1. **Rarity**: Perfect numbers are rare and grow very large quickly.  
 2. **Relationship with Mersenne Primes**:  
@@ -231,8 +227,7 @@ A **perfect number** is a positive integer that is equal to the sum of its **pro
 
 3. **Even Nature**: All known perfect numbers are even. It is unknown if odd perfect numbers exist.  
 
-
-### **How to Check if a Number is Perfect**
+ **How to Check if a Number is Perfect**
 
 1. Find all divisors of the number (excluding itself).  
 2. Compute the sum of these divisors.  
@@ -280,17 +275,16 @@ Constraints:
     
 A **Disarium Number** is a number where the sum of its digits, each raised to the power of its positional order, equals the number itself.
 
-#### **Formula**:
+ **Formula**:
 For a number \( n \) with digits \( d_1, d_2, \dots, d_k \):
 \[
 n = d_1^1 + d_2^2 + \dots + d_k^k
 \]
 Where \( d_1 \) is the first digit, \( d_2 \) is the second digit, and so on.
 
+ **Examples of Disarium Numbers**
 
-### **Examples of Disarium Numbers**
-
-#### **Example 1**: \( 135 \)  
+ **Example 1**: \( 135 \)  
 - Digits: \( 1, 3, 5 \)  
 - Positional Powers:  
   \[
@@ -298,7 +292,7 @@ Where \( d_1 \) is the first digit, \( d_2 \) is the second digit, and so on.
   \]
 - Since the sum equals the original number, \( 135 \) is a Disarium Number.
 
-#### **Example 2**: \( 89 \)  
+ **Example 2**: \( 89 \)  
 - Digits: \( 8, 9 \)  
 - Positional Powers:  
   \[
@@ -306,7 +300,7 @@ Where \( d_1 \) is the first digit, \( d_2 \) is the second digit, and so on.
   \]
 - Since the sum equals the original number, \( 89 \) is a Disarium Number.
 
-#### **Example 3**: \( 175 \)  
+ **Example 3**: \( 175 \)  
 - Digits: \( 1, 7, 5 \)  
 - Positional Powers:  
   \[
@@ -314,11 +308,10 @@ Where \( d_1 \) is the first digit, \( d_2 \) is the second digit, and so on.
   \]
 - \( 175 \) is a Disarium Number.
 
-
-### **Non-Disarium Numbers**
+ **Non-Disarium Numbers**
 Numbers that do not satisfy this property are **not Disarium Numbers**. For example:
 
-#### **Example**: \( 10 \)  
+ **Example**: \( 10 \)  
 - Digits: \( 1, 0 \)  
 - Positional Powers:  
   \[
@@ -326,8 +319,7 @@ Numbers that do not satisfy this property are **not Disarium Numbers**. For exam
   \]
 - Since \( 1 \neq 10 \), \( 10 \) is not a Disarium Number.
 
-
-### **How to Identify a Disarium Number**
+ **How to Identify a Disarium Number**
 
 1. **Extract Digits**:
    - Break the number into its individual digits.
@@ -342,7 +334,7 @@ Numbers that do not satisfy this property are **not Disarium Numbers**. For exam
    - If the sum equals the original number, it is a Disarium Number.
 
 
-### **Examples of Disarium Numbers (Below 200)**
+ **Examples of Disarium Numbers (Below 200)**
 - \( 1, 2, 3, 4, 5, 6, 7, 8, 9, 89, 135, 175 \)
 
 
@@ -378,16 +370,18 @@ A **happy number** is a positive integer that satisfies the following process:
      - The number enters a cycle that does not include `1` (indicating the number is not happy).  
 
 
-### **Examples of Happy Numbers**
+ **Examples of Happy Numbers**
 
-#### **Example 1**: \( n = 19 \)  
+
+ **Example 1**: \( n = 19 \)  
 - \( 19 \rightarrow 1^2 + 9^2 = 82 \)  
 - \( 82 \rightarrow 8^2 + 2^2 = 68 \)  
 - \( 68 \rightarrow 6^2 + 8^2 = 100 \)  
 - \( 100 \rightarrow 1^2 + 0^2 + 0^2 = 1 \)  
 - \( n = 19 \) is a happy number because the process ends at `1`.  
 
-#### **Example 2**: \( n = 7 \)  
+
+ **Example 2**: \( n = 7 \)  
 - \( 7 \rightarrow 7^2 = 49 \)  
 - \( 49 \rightarrow 4^2 + 9^2 = 97 \)  
 - \( 97 \rightarrow 9^2 + 7^2 = 130 \)  
@@ -397,9 +391,10 @@ A **happy number** is a positive integer that satisfies the following process:
 
 
 
-### **Examples of Unhappy Numbers**
+ **Examples of Unhappy Numbers**
 
-#### **Example 1**: \( n = 4 \)  
+
+ **Example 1**: \( n = 4 \)  
 - \( 4 \rightarrow 4^2 = 16 \)  
 - \( 16 \rightarrow 1^2 + 6^2 = 37 \)  
 - \( 37 \rightarrow 3^2 + 7^2 = 58 \)  
@@ -411,7 +406,7 @@ A **happy number** is a positive integer that satisfies the following process:
 
 The number `4` is not a happy number because it enters a cycle and never reaches `1`.  
 
-### **Key Characteristics**
+ **Key Characteristics**
 1. **Happy Numbers Always Reach `1`**:
    - If the process results in `1`, the number is happy.  
 
@@ -436,42 +431,48 @@ The number `4` is not a happy number because it enters a cycle and never reaches
     WAJP to take user input and print whether the number is Automorphic or not.  
     **Q19**
 
-    ### **What is an Automorphic Number?**
+
+ **What is an Automorphic Number?**
 
 An **Automorphic Number** is a number whose **square ends with the same digits as the number itself**.  
 
-#### **Definition**:
+
+ **Definition**:
 If a number \( n \) satisfies the condition:  
 \[
 n^2 \, \text{(ends with)} \, n
 \]
 then \( n \) is an **Automorphic Number**.
 
-### **Examples of Automorphic Numbers**
+ **Examples of Automorphic Numbers**
 
-#### **Example 1**: \( 5 \)  
+
+ **Example 1**: \( 5 \)  
 - \( 5^2 = 25 \)  
 - The square (\( 25 \)) ends with the same digit as the number (\( 5 \)).  
 - Therefore, \( 5 \) is an Automorphic Number.
 
-#### **Example 2**: \( 6 \)  
+
+ **Example 2**: \( 6 \)  
 - \( 6^2 = 36 \)  
 - The square (\( 36 \)) ends with the same digit as the number (\( 6 \)).  
 - Therefore, \( 6 \) is an Automorphic Number.
 
-#### **Example 3**: \( 76 \)  
+
+ **Example 3**: \( 76 \)  
 - \( 76^2 = 5776 \)  
 - The square (\( 5776 \)) ends with the same digits as the number (\( 76 \)).  
 - Therefore, \( 76 \) is an Automorphic Number.
 
-### **Non-Automorphic Numbers**
+ **Non-Automorphic Numbers**
 
-#### **Example**: \( 7 \)  
+
+ **Example**: \( 7 \)  
 - \( 7^2 = 49 \)  
 - The square (\( 49 \)) does not end with the same digit as the number (\( 7 \)).  
 - Therefore, \( 7 \) is not an Automorphic Number.
 
-### **How to Check for Automorphic Numbers**
+ **How to Check for Automorphic Numbers**
 
 1. **Square the Number**:
    - Compute the square of the given number.
@@ -480,7 +481,7 @@ then \( n \) is an **Automorphic Number**.
    - Extract the last \( d \) digits of the square, where \( d \) is the number of digits in \( n \).  
    - Compare the extracted digits with the original number.
 
-### **Properties of Automorphic Numbers**
+ **Properties of Automorphic Numbers**
 
 1. Automorphic numbers can exist in any number system (e.g., base 10, base 2).  
 2. Automorphic numbers are also known as **curious numbers**.  
@@ -502,12 +503,12 @@ then \( n \) is an **Automorphic Number**.
     [Solution for Check a Number is Fascinating or not](https://leetcode.com/problems/check-if-the-number-is-fascinating/post-solution/?submissionId=1488188206)
 
 
-### **What is a Fascinating Number?**
+ **What is a Fascinating Number?**
 
 A **Fascinating Number** is a number that, when concatenated with its multiples (usually 2 and 3), contains all the digits from 1 to 9 exactly once. Fascinating Numbers do not contain the digit 0 and are typically 3-digit or higher.
 
 
-### **Definition**
+ **Definition**
 A number \( n \) is **Fascinating** if:
 1. Concatenate \( n \), \( n \times 2 \), and \( n \times 3 \).
 2. Check if the concatenated result contains **exactly all digits 1 to 9, once each**.
@@ -515,16 +516,18 @@ A number \( n \) is **Fascinating** if:
 
 
 
-### **Examples of Fascinating Numbers**
+ **Examples of Fascinating Numbers**
 
-#### **Example 1: \( 192 \)**
+
+ **Example 1: \( 192 \)**
 - Original Number: \( 192 \)
 - \( n \times 1 = 192 \), \( n \times 2 = 384 \), \( n \times 3 = 576 \)
 - Concatenated Result: \( 192384576 \)
 - Check Digits: \( 192384576 \) contains **all digits from 1 to 9 exactly once**.
 - Conclusion: \( 192 \) is a Fascinating Number.
 
-#### **Example 2: \( 273 \)**
+
+ **Example 2: \( 273 \)**
 - Original Number: \( 273 \)
 - \( n \times 1 = 273 \), \( n \times 2 = 546 \), \( n \times 3 = 819 \)
 - Concatenated Result: \( 273546819 \)
@@ -533,9 +536,10 @@ A number \( n \) is **Fascinating** if:
 
 
 
-### **Non-Fascinating Numbers**
+ **Non-Fascinating Numbers**
 
-#### **Example: \( 123 \)**
+
+ **Example: \( 123 \)**
 - Original Number: \( 123 \)
 - \( n \times 1 = 123 \), \( n \times 2 = 246 \), \( n \times 3 = 369 \)
 - Concatenated Result: \( 123246369 \)
@@ -544,7 +548,7 @@ A number \( n \) is **Fascinating** if:
 
 
 
-### **Steps to Check if a Number is Fascinating**
+ **Steps to Check if a Number is Fascinating**
 
 1. **Compute Multiples**:
    - Multiply the number by \( 1 \), \( 2 \), and \( 3 \).
@@ -555,7 +559,7 @@ A number \( n \) is **Fascinating** if:
 
 
 
-### **Key Points**
+ **Key Points**
 1. Fascinating Numbers are usually 3-digit or more.
 2. The digit 0 is excluded in the concatenated result.
 3. Examples of Fascinating Numbers:
@@ -576,20 +580,22 @@ A number \( n \) is **Fascinating** if:
     WAJP to take user input and print whether the number is Strong or not.  
     **Q23**
 
-### **What is a Strong Number?**
+ **What is a Strong Number?**
 
 A **Strong Number** is a number in which the sum of the **factorials of its digits** is equal to the number itself.
 
-#### **Definition**:
+
+ **Definition**:
 If a number \( n \) has digits \( d_1, d_2, \ldots, d_k \), it is a **Strong Number** if:
 \[
 n = d_1! + d_2! + \ldots + d_k!
 \]
 Where \( d_i! \) represents the factorial of the digit \( d_i \).
 
-### **Examples of Strong Numbers**
+ **Examples of Strong Numbers**
 
-#### **Example 1**: \( 145 \)  
+
+ **Example 1**: \( 145 \)  
 - Digits: \( 1, 4, 5 \)  
 - Factorials:
   \[
@@ -601,7 +607,8 @@ Where \( d_i! \) represents the factorial of the digit \( d_i \).
   \]
 - Since the sum equals the original number, \( 145 \) is a **Strong Number**.
 
-#### **Example 2**: \( 2 \)  
+
+ **Example 2**: \( 2 \)  
 - Digits: \( 2 \)  
 - Factorials:
   \[
@@ -613,7 +620,8 @@ Where \( d_i! \) represents the factorial of the digit \( d_i \).
   \]
 - Since the sum equals the original number, \( 2 \) is a **Strong Number**.
 
-#### **Example 3**: \( 40585 \)  
+
+ **Example 3**: \( 40585 \)  
 - Digits: \( 4, 0, 5, 8, 5 \)  
 - Factorials:
   \[
@@ -625,9 +633,10 @@ Where \( d_i! \) represents the factorial of the digit \( d_i \).
   \]
 - Since the sum equals the original number, \( 40585 \) is a **Strong Number**.
 
-### **Non-Strong Numbers**
+ **Non-Strong Numbers**
 
-#### **Example**: \( 10 \)  
+
+ **Example**: \( 10 \)  
 - Digits: \( 1, 0 \)  
 - Factorials:
   \[
@@ -640,7 +649,7 @@ Where \( d_i! \) represents the factorial of the digit \( d_i \).
 - Since the sum (\( 2 \)) does not equal the original number (\( 10 \)), \( 10 \) is **not a Strong Number**.
 
 
-### **How to Check for a Strong Number**
+ **How to Check for a Strong Number**
 
 1. **Extract Digits**:
    - Break the number into its individual digits.
@@ -654,7 +663,7 @@ Where \( d_i! \) represents the factorial of the digit \( d_i \).
 4. **Compare with Original**:
    - If the sum equals the original number, it is a Strong Number.
 
-### **Properties of Strong Numbers**
+ **Properties of Strong Numbers**
 
 1. Strong Numbers are rare.
 2. Examples of Strong Numbers are:  
